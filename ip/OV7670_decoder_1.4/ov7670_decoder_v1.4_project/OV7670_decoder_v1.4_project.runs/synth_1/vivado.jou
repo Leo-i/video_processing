@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Nov 12 17:39:00 2022
+# Process ID: 5292
+# Current directory: D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1
+# Command line: vivado.exe -log OV7670_decoder_v1_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OV7670_decoder_v1_4.tcl
+# Log file: D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1/OV7670_decoder_v1_4.vds
+# Journal file: D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1\vivado.jou
+# Running On: DESKTOP-S8GIQBB, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 8464 MB
+#-----------------------------------------------------------
+source OV7670_decoder_v1_4.tcl -notrace

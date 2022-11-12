@@ -1,0 +1,677 @@
+
+*** Running vivado
+    with args -log OV7670_decoder_v1_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source OV7670_decoder_v1_4.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source OV7670_decoder_v1_4.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0' already exists; ignoring attempt to add it again.
+INFO: [Common 17-14] Message 'IP_Flow 19-2207' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_1.1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/OV7670_decoder_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/myip_song_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/ImgProc_1.3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP/ip_repo/I2C_Config_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/imgproc_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/myip_song_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall/ip/ip_repo/i2c_config_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/holeinthewall8/ip/ip_repo/imgproc_1.4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/projects/video_processing/src/ip/ov7670_decoder_1.4'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top OV7670_decoder_v1_4 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1660
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1249.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'OV7670_decoder_v1_4' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'OV7670_decoder_v1_4_S00_AXI' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4_S00_AXI.v:382]
+INFO: [Synth 8-6157] synthesizing module 'I2C_AV_Config' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_AV_Config.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_AV_Config.v:109]
+INFO: [Synth 8-6157] synthesizing module 'memory_config' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/memory_config.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'memory_config' (1#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/memory_config.v:1]
+WARNING: [Synth 8-689] width (16) of port connection 'r_data' does not match port width (24) of module 'memory_config' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_AV_Config.v:159]
+INFO: [Synth 8-6157] synthesizing module 'I2C_Controller' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_Controller.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'I2C_Controller' (2#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_Controller.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'I2C_AV_Config' (3#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/I2C_AV_Config.v:16]
+WARNING: [Synth 8-3848] Net LUT_INDEX in module/entity OV7670_decoder_v1_4_S00_AXI does not have driver. [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4_S00_AXI.v:21]
+WARNING: [Synth 8-3848] Net I2C_RDATA in module/entity OV7670_decoder_v1_4_S00_AXI does not have driver. [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4_S00_AXI.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'OV7670_decoder_v1_4_S00_AXI' (4#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4_S00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'v_vid_in_axi4s_1' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1/.Xil/Vivado-5292-DESKTOP-S8GIQBB/realtime/v_vid_in_axi4s_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'v_vid_in_axi4s_1' (5#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1/.Xil/Vivado-5292-DESKTOP-S8GIQBB/realtime/v_vid_in_axi4s_1_stub.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'vid_data' does not match port width (24) of module 'v_vid_in_axi4s_1' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:129]
+WARNING: [Synth 8-689] width (32) of port connection 'm_axis_video_tdata' does not match port width (24) of module 'v_vid_in_axi4s_1' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:133]
+WARNING: [Synth 8-7071] port 'overflow' of module 'v_vid_in_axi4s_1' is unconnected for instance 'videoIN2axi4s' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:119]
+WARNING: [Synth 8-7071] port 'underflow' of module 'v_vid_in_axi4s_1' is unconnected for instance 'videoIN2axi4s' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:119]
+WARNING: [Synth 8-7023] instance 'videoIN2axi4s' of module 'v_vid_in_axi4s_1' has 28 connections declared, but only 26 given [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:119]
+INFO: [Synth 8-6157] synthesizing module 'videoin' [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/videoin.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'videoin' (6#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/src/videoin.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'OV7670_decoder_v1_4' (7#1) [D:/projects/video_processing/src/ip/OV7670_decoder_1.4/hdl/OV7670_decoder_v1_4.v:4]
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port resetI2C driven by constant 1
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port pwdn driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[31] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[30] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[29] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[28] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[27] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[26] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[25] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[24] driven by constant 0
+WARNING: [Synth 8-7129] Port LUT_INDEX[7] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[6] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[5] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[4] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[3] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[2] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[1] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LUT_INDEX[0] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[7] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[6] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[5] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[4] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[3] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[2] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[1] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port I2C_RDATA[0] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module OV7670_decoder_v1_4_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1249.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1249.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1249.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1249.957 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.gen/sources_1/ip/v_vid_in_axi4s_1/v_vid_in_axi4s_1/v_vid_in_axi4s_1_in_context.xdc] for cell 'videoIN2axi4s'
+Finished Parsing XDC File [d:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.gen/sources_1/ip/v_vid_in_axi4s_1/v_vid_in_axi4s_1/v_vid_in_axi4s_1_in_context.xdc] for cell 'videoIN2axi4s'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1295.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1295.477 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for videoIN2axi4s. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'mSetup_ST_reg' in module 'I2C_AV_Config'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                  iSTATE |                              010 |                               01
+                 iSTATE1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mSetup_ST_reg' using encoding 'one-hot' in module 'I2C_AV_Config'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 6     
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 5     
+	   2 Input   11 Bit        Muxes := 1     
+	  62 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	  59 Input    5 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	  41 Input    1 Bit        Muxes := 5     
+	  60 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 37    
+	  59 Input    1 Bit        Muxes := 1     
+	  42 Input    1 Bit        Muxes := 4     
+	  19 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port resetI2C driven by constant 1
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port pwdn driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[31] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[30] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[29] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[28] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[27] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[26] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[25] driven by constant 0
+WARNING: [Synth 8-3917] design OV7670_decoder_v1_4 has port m00_axis_tdata[24] driven by constant 0
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module OV7670_decoder_v1_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module OV7670_decoder_v1_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module OV7670_decoder_v1_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module OV7670_decoder_v1_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module OV7670_decoder_v1_4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module OV7670_decoder_v1_4 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++--------------------+---------------------------------------------------------------+---------------+----------------+
+|Module Name         | RTL Object                                                    | Depth x Width | Implemented As | 
++--------------------+---------------------------------------------------------------+---------------+----------------+
+|I2C_Controller      | I2C_BIT                                                       | 64x1          | LUT            | 
+|OV7670_decoder_v1_4 | OV7670_decoder_v1_4_S00_AXI_inst/IIC/u_I2C_Controller/I2C_BIT | 64x1          | LUT            | 
++--------------------+---------------------------------------------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object                                                | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+|OV7670_decoder_v1_4 | OV7670_decoder_v1_4_S00_AXI_inst/IIC/memory/my_memory_reg | Implied   | 256 x 16             | RAM64M x 24  | 
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object                                                | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+|OV7670_decoder_v1_4 | OV7670_decoder_v1_4_S00_AXI_inst/IIC/memory/my_memory_reg | Implied   | 256 x 16             | RAM64M x 24  | 
++--------------------+-----------------------------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module videoIN2axi4s has unconnected pin vid_vblank
+CRITICAL WARNING: [Synth 8-4442] BlackBox module videoIN2axi4s has unconnected pin vid_hblank
+CRITICAL WARNING: [Synth 8-4442] BlackBox module videoIN2axi4s has unconnected pin vid_field_id
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name         | RTL Name                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|OV7670_decoder_v1_4 | videoin_0/data_valid_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |v_vid_in_axi4s_1 |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |v_vid_in_axi4s |     1|
+|2     |BUFG           |     2|
+|3     |LUT1           |     6|
+|4     |LUT2           |    15|
+|5     |LUT3           |    22|
+|6     |LUT4           |    27|
+|7     |LUT5           |    53|
+|8     |LUT6           |    87|
+|9     |MUXF7          |     3|
+|10    |RAM64M         |    20|
+|11    |RAM64X1D       |     4|
+|12    |SRL16E         |     1|
+|13    |FDCE           |    34|
+|14    |FDPE           |     9|
+|15    |FDRE           |   199|
+|16    |IBUF           |    62|
+|17    |IOBUF          |     1|
+|18    |OBUF           |    80|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1295.477 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1295.477 ; gain = 45.520
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1295.477 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1295.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+  RAM64M => RAM64M (RAMD64E(x4)): 20 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 4 instances
+
+Synth Design complete, checksum: 389da3c5
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 283 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1295.477 ; gain = 45.520
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1/OV7670_decoder_v1_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file OV7670_decoder_v1_4_utilization_synth.rpt -pb OV7670_decoder_v1_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 12 17:40:03 2022...

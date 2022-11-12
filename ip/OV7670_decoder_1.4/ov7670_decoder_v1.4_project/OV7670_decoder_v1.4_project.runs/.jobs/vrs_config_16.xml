@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="v_vid_in_axi4s_1_synth_1" LaunchDir="D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/v_vid_in_axi4s_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/projects/video_processing/src/ip/OV7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="v_vid_in_axi4s_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="v_vid_in_axi4s_0_synth_1" LaunchDir="c:/users/gustavo/uoft/digital_systems_design/holeinthewall9/ip/ip_repo/ov7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/v_vid_in_axi4s_0_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="c:/users/gustavo/uoft/digital_systems_design/holeinthewall9/ip/ip_repo/ov7670_decoder_1.4/ov7670_decoder_v1.4_project/OV7670_decoder_v1.4_project.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="v_vid_in_axi4s_0_synth_1"/>
+	</Run>
+</Runs>
+
