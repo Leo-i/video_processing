@@ -35,6 +35,10 @@ int WriteSetup(vdma_handle *vdma_context);
 int StartTransfer(XAxiVdma *InstancePtr);
 void StopTransfer(XAxiVdma *InstancePtr);
 
+int run_triple_frame_buffer(XAxiVdma* InstancePtr, int DeviceId, int hsize,
+		int vsize, int buf_base_addr, int number_frame_count,
+		int enable_frm_cnt_intr);
+
 int set_transaction(vdma_handle *vdma_context, int DeviceId, int hsize,
 		int vsize, int buf_base_addr, int number_frame_count, int enable_frm_cnt_intr);
 

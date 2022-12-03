@@ -2,14 +2,15 @@
 
 #include <stdio.h>
 #include "platform.h"
-#include "xil_printf.h"
+//#include "xparameters.h"
 
 #include "camera_driver.h"
 #include "OV7670_decoder.h"
 
+#include "xiic.h"
+
 
 volatile unsigned int * vdma = (unsigned int*) XPAR_AXI_VDMA_0_BASEADDR;
-//volatile unsigned int * AR = (unsigned int*) XPAR_TFT_0_BASEADDR;//TFT CONFIGURE PARAMETER
 
 volatile unsigned int * conf_reg = (unsigned int*) (0x43C00000 + OV7670_DECODER_S00_AXI_SLV_REG0_OFFSET);
 volatile unsigned int * camera_state = (unsigned int*) (0x43C00000 + OV7670_DECODER_S00_AXI_SLV_REG1_OFFSET);
@@ -17,20 +18,14 @@ volatile unsigned int * decoder_type = (unsigned int*) (0x43C00000 + OV7670_DECO
 
 void init_camera(){
 
-
 	config_OV7670();
-//	vdma[12] = 0x0000000B; // enable vdma
-//	vdma[43] = 0x80000000; // write base address
-//	vdma[42] = 4*1024; // stride (bytes)
-//	vdma[41] = 4*640; // image size (bytes)
-//	vdma[40] = 512; // number of lines
-	//*AR = 0x80000000;//output;
 	camera_set_mode();
 }
 
+
 void camera_set_mode(){
 	//conf_reg = 0xA98C00; // no RGB444. Other formats only work if RGB444 is disabled.
-	//conf_reg = 0xAA40F0; // RGB555
+	//*conf_reg = 0xAA40F0; // RGB555
 	//conf_reg = 0xAB40D0; // RGB565
 	*decoder_type = 1; // 0 = RGB444, 1 = RGB555, 2 = RGB565
 }
@@ -93,7 +88,6 @@ void config_OV7670(void) {
 	*conf_reg = 0x34a990;
 	*conf_reg = 0x35aa94;
 	*conf_reg = 0x3613ef;
-	//2
 	*conf_reg= 0x370e61;
 	*conf_reg= 0x380f4b;
 	*conf_reg= 0x391602;
@@ -175,7 +169,6 @@ void config_OV7670(void) {
 	*conf_reg= 0x859930;
 	*conf_reg= 0x869a84;
 	*conf_reg= 0x879b29;
-	//3
 	*conf_reg= 0x889c03;
 	*conf_reg= 0x899d4c;
 	*conf_reg= 0x8A9e3f;
@@ -256,7 +249,6 @@ void config_OV7670(void) {
 	*conf_reg= 0xD50000;
 	*conf_reg= 0xD60000;
 	*conf_reg= 0xD70000;
-	//4
 	*conf_reg = 0xD80000;
 	*conf_reg = 0xD90000;
 	*conf_reg = 0xDA0000;
